@@ -1,0 +1,87 @@
+body{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 100vh;
+    background: #000;
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+    padding: 0;
+    margin: 0;
+}
+.main{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    opacity: 0.6;
+}
+
+.container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+}
+.navbar{
+    padding: 30px 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+.logo{
+    width: 200px;
+    /* additional */
+    display: flex;
+
+}
+.logo>img{
+    min-width: 10%;
+}
+.signin{
+    color: #fff;
+    cursor: pointer;
+    background: red;
+    max-height: max-content;
+    max-width: max-content;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.subcontainer{
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    color: #fff;
+}
+h1{
+    font-size: 40px;
+}
+input{
+    background: #00000085;
+    border: solid gray;
+    color: #fff;
+    padding: 10px;
+    width: 400px;
+    font-size: 20px;
+    outline: none;
+}
+button{
+    background: red;
+    border: solid red;
+    color: #fff;
+    font-weight: 10px;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+button:hover{
+    background: rgb(198, 7, 7);
+}
